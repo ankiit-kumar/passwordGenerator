@@ -12,7 +12,7 @@ function App() {
   dependency is passed in the form of array
   example:-
   useCallback(fn,[a1,a2,a3])
-  here a1,a2,a3 are dependencies
+  here a1,a2,a3 are dependencies due to which the changes will be visible
   */
 const passwordRef=useRef(null)
 
